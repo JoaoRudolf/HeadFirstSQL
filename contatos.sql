@@ -1,6 +1,6 @@
 create table meus_contatos (
 	sobrenome varchar(30) not null,
-	nome varchar(20 not null),
+	nome varchar(20) not null,
 	email varchar(50) not null,
 	data_nasc date not null,
 	profissao varchar(50) not null,
@@ -13,4 +13,4 @@ create table meus_contatos (
 select * from meus_contatos;
 
 insert into meus_contatos 
-values ('PÈ de Feij„o', 'Jo„o', 'joaof@gmail.com', '1988-11-24', 'Contador', 'Blumenau', 'Casado', 'programming', 'jobs');
+values ('P√© de Feij√£o', 'Jo√£o', 'joaof@gmail.com', '1988-11-24', 'Contador', 'Blumenau', 'Casado', 'programming', 'jobs');
