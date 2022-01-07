@@ -5,7 +5,7 @@ create table doughnut_list2 (
 	doughnut_type varchar(8)
 );
 
-select * from doughnut_list;
+select * from doughnut_list2;
 
 
 
