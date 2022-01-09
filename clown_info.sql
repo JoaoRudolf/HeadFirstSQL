@@ -34,5 +34,14 @@ insert into info_palhaco
 values
 ('Sniffles', 'Tracy''s', 'M, terno verde e roxo, nariz pontudo'); 
 
+
+insert into info_palhaco 
+values 
+('Zippo', 'Milestone Mall', 'F, terno laranja, calça larga', 'dançando, cantando');
+
+insert into info_palhaco 
+values
+('Snuggles', 'Ball-Mart', 'F, camisa amarela, calça larga azul', 'corneta, guarda-chuva');
+
 delete from info_palhaco 
 where visto_onde = 'Jacks Party';
