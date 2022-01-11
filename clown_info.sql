@@ -43,5 +43,30 @@ insert into info_palhaco
 values
 ('Snuggles', 'Ball-Mart', 'F, camisa amarela, calça larga azul', 'corneta, guarda-chuva');
 
+insert into info_palhaco 
+values
+('Bonzo', 'Dickinson Park','M, arrastão, vestido polca pontilhado', 'cantando, dançando');
+
+insert into info_palhaco 
+values
+('Sniffles', 'Tracy''s', 'M, terno verde e roxo, nariz pontudo', 'subindo num carro pequeno'); 
+
+insert into info_palhaco 
+values
+('Mr. Hobbo', 'Festa do Eric', 'M, charuto, cabelo pretos, chapéu pequeno', 'violino');
+
+select * from info_palhaco;
+
+update info_palhaco 
+set visto_onde = 'Cherry Hill'
+where nome = 'Elsie';
+
+update info_palhaco 
+set visto_onde = 'Blumenau'
+where nome = 'Clarabelle';
+
 delete from info_palhaco 
-where visto_onde = 'Jacks Party';
+where visto_onde = 'Cherry Hill';
+
+insert column 'ID' into info_palhaco;
+
